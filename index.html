@@ -1,0 +1,100 @@
+<!-- first solo project-->
+ 
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Survey</title>
+  </head>
+  <body>
+    <h1 id="title">Pet Survey</h1>
+    <p id="description">This survey gathers general information on your pet.</p>
+
+    <!-- Person Details Section -->
+    <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">Name:</label>
+      <input id="name" type="text" required placeholder="Enter your name">
+    </div>
+
+    <div class="form-group">
+      <label id="email-label" for="email">Email:</label>
+      <input id="email" type="email" required placeholder="Enter your email">
+    </div>
+
+    <div class="form-group">
+      <label id="number-label" for="number">Number:</label>
+      <input id="number" type="number" required placeholder="Enter your phone number" min="1" max="99999999999">
+    </div>
+    <hr>
+    <!-- Pet Details Section-->
+    <div class="form-group">
+      <label id="pet-name-label" for="pet-name">Pets Name:</label>
+      <input id="pet-name" type="text" required placeholder="Enter your pets name">
+    </div>
+
+    <div class="form-group">
+      <label id="age-label" for="age">Pets Age:</label>
+      <input id="age" type="age" required placeholder="Enter your pets age" min="1" max="99">
+    </div>
+
+    <div class="form-group">
+      <label id="type-label" for="type">Pet Type:</label>
+      <div class="checkbox-option">
+        <label><input type="checkbox" name="pet-type" value="dog"> Dog</label>
+      </div>
+      <div class="checkbox-option">
+        <label><input type="checkbox" name="pet-type" value="cat"> Cat</label>
+      </div>
+      <div class="checkbox-option">
+        <label><input type="checkbox" name="pet-type" value="fish"> Fish</label>
+      </div>
+      <div class="checkbox-option rodent">
+        <label><input type="checkbox" name="pet-type" value="rodent"><span> Rodent</span></label>
+      </div>
+      <div class="checkbox-option">
+        <label><input type="checkbox" name="pet-type" value="bird"> Bird</label>
+        </div>
+        <div class="checkbox-option other">
+        <label><input type="checkbox" name="pet-type" value="other"><span> Other</span></label>
+      </div>
+    </div>
+
+    <div class="form-group">
+    <label id="dropdown-label" for="dropdown">Environment: </label>
+    <select id="dropdown">
+      <option>Choose one</option>
+      <option>Indoor</option>
+      <option>Outdoor</option>
+      <option>Both</option>
+    </select>
+    </div>
+
+    <div class="form-group">
+      <label id="sleep-type-label" for="sleep-type">Sleep Type:</label>
+      <div class="radio-option">
+        <label><input type="radio" name="sleep-type" value="diurnal"> Diurnal</label>
+      </div>
+      <div class="radio-option">
+        <label><input type="radio" name="sleep-type" value="nocturnal"> Nocturnal</label>
+      </div>
+     </div>
+
+    <div class="form-group">
+      <label>Additional Information:</label><textarea placeholder="Tell us about your pets personality.."></textarea>
+    </div>
+
+    <hr>
+
+    <div class="form-group submit-group">
+      <input id="submit" type="submit" value="Submit">
+    
+
+    </div>
+    <!-- Add submit button -->
+
+    </form>
+  </body>
+</html>
