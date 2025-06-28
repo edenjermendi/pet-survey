@@ -1,6 +1,6 @@
 # Pet Survey
 
-Hi, I’m Eden
+Hi, I’m eden
 
 This is my **first solo HTML and CSS project**: a simple pet survey page. It was built as part of my learning journey to practice basic HTML forms, styling, and page structure.
 
