@@ -63,4 +63,4 @@ This was my first solo attempt at putting together a page without step-by-step i
 
 Thanks for checking it out!
 
-— edenDev
+— eden
